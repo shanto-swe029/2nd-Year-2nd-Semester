@@ -76,3 +76,4 @@ int main()
 }
 ```
 
+3. <a href = "https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html#segmented-sieve"> Segmented Sieve </a>
