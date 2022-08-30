@@ -1,4 +1,6 @@
-# Resources
+# ALgorithm Design and Analysis
+
+## Resources
 
 1. <a href = "https://codeforces.com/blog/entry/54090"> Sieve </a> or <a href = "https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html"> click here </a>
 	- Topics list:
@@ -10,7 +12,7 @@
 
 2. <a href = "http://www.shafaetsplanet.com/?p=855"> Bitwise Sieve </a>
 
-### Code of bitwise sieve
+#### Code of bitwise sieve
 
 ```C++
 #include <bits/stdc++.h>
