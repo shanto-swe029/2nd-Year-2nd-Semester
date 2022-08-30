@@ -28,3 +28,16 @@ higibigi
 #### System Call Implementation
 
 #### API - SYstem Call - OS Relationship
+
+#### System call parameter passing
+
+#### Types of system call
+
+* Process control
+* File management
+* Device management
+* Information maintenance
+* Communcations
+* Protection
+
+#### System Programs
