@@ -15,5 +15,15 @@ how much error (threshold value) we will accept.
 **How do we solve an engineering problem?** <br>
 Problem Description -> Mathematical Model -> Solution of Mathematical Model -> Using the Solution
 
-Mathematical Model: Converting the problem into mathematics.otherwise computer cannot help to solve this problem.
-Using the Solution: Compare with existing solutions.
+**Mathematical Model:** Converting the problem into mathematics.otherwise computer cannot help to solve this problem.
+
+**Using the Solution:** Compare with existing solutions.
+
+<br>
+<br>
+
+
+### Lecture-02:    31st August, 2022
+
+#### Nonlinear Equations
+How much of the floating ball is under water?
