@@ -79,3 +79,9 @@ int main()
 ```
 
 3. <a href = "https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html#segmented-sieve"> Segmented Sieve </a>
+
+
+4. <a href = "https://cp-algorithms.com/algebra/phi-function.html"> Euler's Totient Function </a>
+
+
+
