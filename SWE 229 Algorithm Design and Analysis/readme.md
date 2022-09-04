@@ -122,7 +122,7 @@ void phi_1_to_n(int n) {
 }
 ```
 
-**Complexity:** O(n log log n)
+**Complexity:** _O(n log log n)_
 
 **Application of Totient Function**
 * <a href = "https://cp-algorithms.com/algebra/phi-function.html#divsum"> Divisor Sum Property </a>
