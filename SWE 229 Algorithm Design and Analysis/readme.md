@@ -105,7 +105,7 @@ int phi(int n) {
 
 **Complexity:** _O(sqrt(n))_
 
-Computing totient of all numbers from **1** to **n**:
+Computing totient of all numbers from **1** to **n** (using the idea of **sieve**):
 
 ```C++
 void phi_1_to_n(int n) {
@@ -123,6 +123,22 @@ void phi_1_to_n(int n) {
 ```
 
 **Complexity:** _O(n log log n)_
+
+Computing totient of all numbers from **1** to **n** (using the property of **Divisor Sum**):
+
+```C++
+void phi_1_to_n(int n) {
+    vector<int> phi(n + 1);
+    phi[0] = 0;
+    phi[1] = 1;
+    for (int i = 2; i <= n; i++)
+        phi[i] = i - 1;
+
+    for (int i = 2; i <= n; i++)
+        for (int j = 2 * i; j <= n; j += i)
+              phi[j] -= phi[i];
+}
+```
 
 **Application of Totient Function**
 * <a href = "https://cp-algorithms.com/algebra/phi-function.html#divsum"> Divisor Sum Property </a>
