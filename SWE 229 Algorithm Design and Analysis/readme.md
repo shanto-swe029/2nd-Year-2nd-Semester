@@ -145,3 +145,24 @@ void phi_1_to_n(int n) {
 * <a href = "https://cp-algorithms.com/algebra/phi-function.html#application"> Euler's Theorem </a>
 
 
+5. <a href = "https://cp-algorithms.com/algebra/divisors.html"> Number or Sum Of Divisors </a>
+
+#### Code of Number of Divisors:
+
+(...HW...) Using the method of phi function
+
+**Complexity:** _O(sqrt(n))_
+
+<a href = "https://codeforces.com/blog/entry/22317"> Counting Numbe of Divisors in _O(n^(1/3))_ Complexity </a>
+
+#### Code of Sum of Divisors:
+
+(...HW...) Using the method of phi function
+
+**Complexity:** _O(sqrt(n))_
+
+
+
+
+
+
