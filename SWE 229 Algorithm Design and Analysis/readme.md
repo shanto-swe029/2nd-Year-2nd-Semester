@@ -85,14 +85,16 @@ int main()
 
 #### Code of Phi Function
 
+An implementation using factorization
+
 ```C++
 int phi(int n) {
     int result = n;
     for (int i = 2; i * i <= n; i++) {
-        if (n % i == 0) {
+        if (n % i == 0) {	// This "i" is always a prime here
             while (n % i == 0)
                 n /= i;
-            result -= result / i;
+            result -= result / i;	// This line implies that result *= (1-1/i); where "i" is a prime
         }
     }
     if (n > 1)
