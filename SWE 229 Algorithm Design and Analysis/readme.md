@@ -155,6 +155,8 @@ void phi_1_to_n(int n) {
 
 <a href = "https://codeforces.com/blog/entry/22317"> Counting Numbe of Divisors in _O(n^(1/3))_ Complexity </a>
 
+Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
+
 #### Code of Sum of Divisors:
 
 (...HW...) Using the method of phi function
