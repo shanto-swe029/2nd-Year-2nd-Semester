@@ -85,7 +85,7 @@ int main()
 
 #### Code of Phi Function
 
-An implementation using factorization
+An implementation using factorization:
 
 ```C++
 int phi(int n) {
@@ -104,6 +104,25 @@ int phi(int n) {
 ```
 
 **Complexity:** _O(sqrt(n))_
+
+Computing totient of all numbers from **1** to **n**:
+
+```C++
+void phi_1_to_n(int n) {
+    vector<int> phi(n + 1);
+    for (int i = 0; i <= n; i++)
+        phi[i] = i;
+
+    for (int i = 2; i <= n; i++) {
+        if (phi[i] == i) {
+            for (int j = i; j <= n; j += i)
+                phi[j] -= phi[j] / i;
+        }
+    }
+}
+```
+
+**Complexity:** O(n log log n)
 
 **Application of Totient Function**
 * <a href = "https://cp-algorithms.com/algebra/phi-function.html#divsum"> Divisor Sum Property </a>
