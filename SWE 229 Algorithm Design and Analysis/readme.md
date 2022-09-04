@@ -106,8 +106,7 @@ int phi(int n) {
 **Complexity:** _O(sqrt(n))_
 
 **Application of Totient Function**
-
-	* <a href = "https://cp-algorithms.com/algebra/phi-function.html#divsum"> Divisor Sum Property </a>
-	* <a href = "https://cp-algorithms.com/algebra/phi-function.html#application"> Euler's Theorem </a>
+* <a href = "https://cp-algorithms.com/algebra/phi-function.html#divsum"> Divisor Sum Property </a>
+* <a href = "https://cp-algorithms.com/algebra/phi-function.html#application"> Euler's Theorem </a>
 
 
