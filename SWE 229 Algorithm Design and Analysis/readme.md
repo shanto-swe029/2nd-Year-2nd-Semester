@@ -91,13 +91,13 @@ An implementation using factorization
 int phi(int n) {
     int result = n;
     for (int i = 2; i * i <= n; i++) {
-        if (n % i == 0) {	// This "i" is always a prime here
+        if (n % i == 0) {	// This "i" is always a prime here.
             while (n % i == 0)
                 n /= i;
-            result -= result / i;	// This line implies that result *= (1-1/i); where "i" is a prime
+            result -= result / i;	// This line implies that result *= (1-1/i); where "i" is a prime.
         }
     }
-    if (n > 1)
+    if (n > 1)		// If n is greater than 1 then n is always a prime.
         result -= result / n;
     return result;
 }
