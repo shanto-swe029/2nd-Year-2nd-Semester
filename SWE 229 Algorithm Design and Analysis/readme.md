@@ -3,7 +3,7 @@
 ## Resources
 
 1. <a href = "https://codeforces.com/blog/entry/54090"> Sieve </a> or <a href = "https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html"> click here </a>
-	- Topics list:
+	- Topics you will find in this link:
 		- Sieve of Eratosthenes
 		- Linear Sieve
 		- Multiplicative Function (Totient Function)
