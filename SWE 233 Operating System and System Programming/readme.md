@@ -7,6 +7,7 @@
 #### What is OS?
 higibigi
 
+<br> <br>
 
 ### Lecture-02: 30th August, 2022
 
@@ -44,6 +45,7 @@ higibigi
 
 #### Operating System Design and Implementation
 
+<br> <br>
 
 ### Lecture-03: 5th September, 2022
 
