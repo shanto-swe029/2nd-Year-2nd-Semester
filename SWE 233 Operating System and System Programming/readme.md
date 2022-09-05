@@ -87,6 +87,14 @@ Also called **Task Control Block**.
 
 #### CPU switch from process to process
 
+#### Threads
+* So far, process has a single thread of execution
+* Consider having multiple program counters per process
+	- Multiple locations can execute at once
+		- Multiple threads of control -> **threads**
+* Must then save storage for thread details, multiple program counters in PCB
+
+
 
 
 
