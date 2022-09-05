@@ -94,6 +94,28 @@ Also called **Task Control Block**.
 		- Multiple threads of control -> **threads**
 * Must then save storage for thread details, multiple program counters in PCB
 
+#### Process Scheduling
+* Maximize CPU use, quickly switch processes onto CPU for time sharing
+* **Process Scheduler** selects among available processes for next execution on CPU
+
+(...)
+
+#### Representation of Process Scheduling
+
+#### Multiprocess Architecture - Chrome Browser
+Google Chrome Browser is multiprocess with 3 categories:
+* Browser process
+* Render process
+* Plug-in process
+
+#### Interprocess Communication
+
+#### Communications Models
+* Shared Memory
+* Message Queue
+
+#### Cooperating Processes
+
 
 
 
