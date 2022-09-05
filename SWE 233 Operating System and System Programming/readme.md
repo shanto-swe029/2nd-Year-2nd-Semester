@@ -74,6 +74,28 @@ As a process executes, it changes **state**:
 
 #### Diagram of process state
 
+#### Process Control Block (PCB)
+Also called **Task Control Block**.
+**PCB** is the information associated with each process.
+* **Process state** - running, waiting, etc
+* **Program counter** - location of next instruction to be executed
+* **CPU registers** - contents of all process-centric registers
+* **CPU scheduling information** - priorities, scheduling queue pointers
+* **Memory-management information** - memory allocated to the process
+* **Accounting information** - CPU used, clock time elapsed since start, time limits
+* **I/O status information** - I/O devices allocated to process, list of open files
+
+#### CPU switch from process to process
+
+
+
+
+
+
+
+
+
+
 
 
 
