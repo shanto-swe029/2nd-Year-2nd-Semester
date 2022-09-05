@@ -27,3 +27,43 @@ Problem Description -> Mathematical Model -> Solution of Mathematical Model -> U
 
 #### Nonlinear Equations
 How much of the floating ball is under water?
+
+<br>
+<br>
+
+### Lecture-03:    5th September, 2022
+
+#### Root Finding Methods
+
+f(x) = x^3 - 6x^2 + 11x - 6 = 0
+f(1) = 0, f(2) = 0, f(3) = 0
+
+We do not need numerical analysis here because we have found the exact solutions.
+
+Some root finding methods are:
+* Bisection Method
+* Method of False Position
+* Newton Raphson's Method
+* Fixed Point Iteration Method
+
+#### Bisection Method
+If a function f(x) is continuous between *a* and *b* and f(a).f(b) < 0 ( or f(a) and f(b) are of opposite sign), then there exists at least one root between _a_ and _b_.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
