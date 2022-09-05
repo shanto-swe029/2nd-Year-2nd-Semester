@@ -51,7 +51,10 @@ If a function ***f(x)*** is continuous between *a* and *b* and ***f(a).f(b) < 0*
 
 We can find only one root of ***f(x)*** within the interval ***[a, b]***.
 
-
+Find the root of the following functions using bisection method:
+1. ***f(x) = x^3 - 2x^2 - 4 = 0; a = 2, b = 3***
+2. ***f(x) = x^3 + x^2 - 1= 0; a = 0, b = 1***
+3. ***f(x) = x^2 + sin(x) - 1= 0; a = null, b = null***
 
 
 
