@@ -50,7 +50,27 @@ higibigi
 **Chapter-03 : Process**
 
 #### Process Concepts
+Process is a program in execution, process execution must progress in sequential fashion.
+A process has multiple parts-
+* The program code
+* current activity including program counter
+* Stack containing temp data
+* Data section containing global variables
+* Heap containing memory dynamically allocated during run time.
 
+Program is passive entity stored on disk(executable file), process is active.
+
+#### Process in Memory
+
+#### Process State
+As a process executes, it changes **state**:
+* **new:** the process is being created
+* **running:** instructions are being executed
+* **waiting:** the process is waiting for some event to occur
+* **ready:** the process is waiting to be assigned to a processor
+* **terminated:** the process has finished execution
+
+#### Diagram of process state
 
 
 
