@@ -47,7 +47,9 @@ Some root finding methods are:
 * Fixed Point Iteration Method
 
 #### Bisection Method
-If a function f(x) is continuous between *a* and *b* and f(a).f(b) < 0 ( or f(a) and f(b) are of opposite sign), then there exists at least one root between _a_ and _b_.
+If a function ***f(x)*** is continuous between *a* and *b* and ***f(a).f(b) < 0*** ( or ***f(a)*** and ***f(b)*** are of opposite sign), then there exists ***at least one root*** between _a_ and _b_.
+
+We can find only one root of ***f(x)*** within the interval ***[a, b]***.
 
 
 
