@@ -164,6 +164,19 @@ Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
 **Complexity:** _O(sqrt(n))_
 
 
+#### Extended Euclidean Algorithm
+
+#### Big Mod
+
+#### Modular multiplicative inverse
+
+#### Shortest Path: 
+<a href = "https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"> Floyd Warshall </a>
+
+
+
+
+
 
 
 
