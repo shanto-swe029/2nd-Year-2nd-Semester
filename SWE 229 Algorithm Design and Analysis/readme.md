@@ -166,9 +166,13 @@ Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
 
 #### Extended Euclidean Algorithm
 
+<a href = "https://cp-algorithms.com/algebra/extended-euclid-algorithm.html"> Link </a>
+
 #### Big Mod
 
 #### Modular multiplicative inverse
+
+<a href = "https://cp-algorithms.com/algebra/module-inverse.html"> Link </a>
 
 #### Shortest Path: 
 <a href = "https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"> Floyd Warshall </a>
