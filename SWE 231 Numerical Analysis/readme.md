@@ -72,6 +72,7 @@ Find the root of the following functions using bisection method:
 #### Newton Raphson Method
 
 <a href = "https://byjus.com/maths/newton-raphson-method/"> Theory Link </a>
+
 <a href = "https://atozmath.com/CONM/Bisection.aspx?q=nr"> Newton Raphson Method Calculator </a>
 
 
