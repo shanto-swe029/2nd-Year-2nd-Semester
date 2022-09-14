@@ -58,6 +58,14 @@ Find the root of the following functions using bisection method:
 2. ***f(x) = x^3 + x^2 - 1= 0; a = 0, b = 1***
 3. ***f(x) = x^2 + sin(x) - 1= 0; a = null, b = null***
 
+<br>
+<br>
+
+### Lecture-04:    14th September, 2022
+
+#### False Position Method
+
+#### Newton Raphson Method
 
 
 
