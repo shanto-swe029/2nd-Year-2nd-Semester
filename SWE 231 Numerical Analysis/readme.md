@@ -67,6 +67,7 @@ Find the root of the following functions using bisection method:
 
 <a href = "https://byjus.com/maths/false-position-method/#:~:text=The%20false%20position%20method%20is,the%20roots%20of%20the%20equation."> Theory Link </a>
 
+<a href = "https://atozmath.com/CONM/Bisection.aspx?q=fp"> False Position Method Calculator </a>
 
 #### Newton Raphson Method
 
