@@ -174,6 +174,10 @@ Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
 
 <a href = "https://cp-algorithms.com/algebra/module-inverse.html"> Link </a>
 
+#### Chinese Remainder Theorem
+
+<a href = "https://cp-algorithms.com/algebra/chinese-remainder-theorem.html"> Link </a>
+
 #### Shortest Path: 
 <a href = "https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"> Floyd Warshall </a>
 
