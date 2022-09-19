@@ -76,6 +76,20 @@ Find the root of the following functions using bisection method:
 <a href = "https://atozmath.com/CONM/Bisection.aspx?q=nr"> Newton Raphson Method Calculator </a>
 
 
+<br>
+<br>
+
+### Lecture-05:    19th September, 2022
+
+#### Interpolation
+
+1. Newton's Formula
+    * Forward Formula
+    * Backward Formula
+
+[Interpolation.pdf](https://github.com/shanto-swe029/2nd-Year-2nd-Semester/files/9597735/Interpolation.pdf)
+
+##### Newton's Forward Interpolation Formula
 
 
 
