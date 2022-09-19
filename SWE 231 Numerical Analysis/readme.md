@@ -91,6 +91,8 @@ Find the root of the following functions using bisection method:
 
 ##### Newton's Forward Interpolation Formula
 
+##### Newton's Backward Interpolation Formula
+
 
 
 
