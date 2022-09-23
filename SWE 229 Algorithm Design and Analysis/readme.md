@@ -182,6 +182,9 @@ Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
 
 ##### An Implementation Based on Link-02
 
+_For 2 Equations:_
+<br>
+
 ```C++
 #define ll long long
 
