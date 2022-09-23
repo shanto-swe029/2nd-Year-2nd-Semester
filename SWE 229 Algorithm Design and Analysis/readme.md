@@ -188,7 +188,7 @@ We would like to solve the following system of equations
 
 **_x ≅ a2 ( mod n2 )_** ......(ii)
 
-where **_n1, n2 ≤ 1,000,000,000_** or **_1e9_**
+where **_a1, a2, n1, n2 ≤ 1,000,000,000_** or **_1e9_**
 
 <br>
 
