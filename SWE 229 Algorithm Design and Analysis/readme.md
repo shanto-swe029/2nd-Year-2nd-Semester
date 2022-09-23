@@ -178,13 +178,15 @@ Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
 
 
 
-<a href = "https://cp-algorithms.com/algebra/chinese-remainder-theorem.html"> Link-01 : CP Algorithms Blog - Coprime Moduli </a>
+<a href = "https://cp-algorithms.com/algebra/chinese-remainder-theorem.html"> Link-01 : ***CP Algorithms'*** Blog of Chinese Remainder Theorem </a>
 
-<a href = "https://codeforces.com/blog/entry/61290"> Link-02 : Codeforces Blog - Coprime & Non Coprime Moduli </a>
+<a href = "https://codeforces.com/blog/entry/61290"> Link-02 : ***Codeforces'*** Blog of Chinese Remainder Theorem of Coprime & Non Coprime Moduli </a>
 
-<a href = "https://forthright48.com/chinese-remainder-theorem-part-1-coprime-moduli/"> Link-03 : Chinese Remainder Theorem Part 1 – Coprime Moduli </a>
+<a href = "https://forthright48.com/chinese-remainder-theorem-part-1-coprime-moduli/"> Link-03 : ***forthright48's*** Blog of Chinese Remainder Theorem Part 1 – Coprime Moduli </a>
 
-<a href = "https://forthright48.com/chinese-remainder-theorem-part-2-non-coprime-moduli/"> Link-04: Chinese Remainder Theorem Part 2 – Non Coprime Moduli </a>
+<a href = "https://forthright48.com/chinese-remainder-theorem-part-2-non-coprime-moduli/"> Link-04: ***forthright48's*** Blog of Chinese Remainder Theorem Part 2 – Non Coprime Moduli </a>
+
+<a href = "https://www.cut-the-knot.org/blue/chinese.shtml"> Link-05: ***Cut The Knot's*** Blog of Chinese Remainder Theorem </a>
 
 
 
