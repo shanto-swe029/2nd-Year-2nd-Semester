@@ -200,6 +200,8 @@ where **_a1, a2, n1, n2 ≤ 1,000,000,000_** or **_1e9_**.
 
 Besides it is not necessary that **_n1_** & **_n2_** are coprime.
 
+The following implementation handles overflow when calculating the value of **_x_**!
+
 <br>
 
 ```C++
