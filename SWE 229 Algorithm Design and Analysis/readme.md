@@ -194,15 +194,15 @@ Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
 
 We would like to solve the following system of equations
 
-**_x ≅ a1 ( mod n1 )_** ......(i)
+**_x ≅ a₁ ( mod n₁ )_** ......(1)
 
-**_x ≅ a2 ( mod n2 )_** ......(ii)
+**_x ≅ a₂ ( mod n₂ )_** ......(2)
 
-where **_a1, a2, n1, n2 ≤ 1,000,000,000_** or **_1e9_**.
+where **_a₁, a₂, n₁, n₂ ≤ 10⁹_**.
 
-Besides it is not necessary that **_n1_** & **_n2_** are coprime.
+Besides it is **not necessary** that **_n₁_** & **_n₂_** are coprime.
 
-The following implementation handles overflow when calculating the value of **_x_**!
+The following implementation handles overflow when calculating the value of **_x_**!!!
 
 <br>
 
@@ -242,6 +242,43 @@ ll CRT_2( ll a1, ll n1, ll a2, ll n2 ) // CRT for 2 equations
 	ll c = n1;
 
 	return x = (((a1 + (a%b) * c) % lcm) + lcm) % lcm; // this is the lowest solution; 
+}
+```
+<br>
+
+Now we would like to solve the following system of equations
+
+**_x ≅ a₁ ( mod n₁ )_** ......(1)
+
+**_x ≅ a₂ ( mod n₂ )_** ......(2)
+
+...
+
+...
+
+**_x ≅ aₜ ( mod nₜ )_** ......(t)
+
+```C++
+ll CRT_t( std::vector<ll> a, std::vector<ll> n ) // CRT for t equations
+{
+	ll sz = a.size();
+
+	std::cout << sz << endl;
+
+	ll a1 = CRT_2(a[0], n[0], a[1], n[1]);
+	if( a1 == -1 ) return -1; // no solution
+
+	ll n1 = n[0] * n[1] / __gcd(n[0], n[1]);
+	ll a2, n2;
+
+	for( int i = 2; i < sz; i++ ) {
+		a2 = a[i], n2 = n[i];
+		a1 = CRT_2(a1, n1, a2, n2);
+		if( a1 == -1 ) return -1;
+		ll d = __gcd(n1, n2);
+		n1 = n1 * n2 / d;
+	}
+	return a1;
 }
 ```
 
