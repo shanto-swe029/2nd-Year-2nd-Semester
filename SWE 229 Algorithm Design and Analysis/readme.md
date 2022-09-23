@@ -244,6 +244,9 @@ ll CRT_2( ll a1, ll n1, ll a2, ll n2 ) // CRT for 2 equations
 	return x = (((a1 + (a%b) * c) % lcm) + lcm) % lcm; // this is the lowest solution; 
 }
 ```
+
+**_Time Complexity:_** _O( log(lcm(n₁, n₂)) )_
+
 <br>
 
 Now we would like to solve the following system of equations
@@ -257,6 +260,11 @@ Now we would like to solve the following system of equations
 ...
 
 **_x ≅ aₜ ( mod nₜ )_** ......(t)
+
+The simultaneous congruences are solvable when **_aᵢ = aⱼ ( mod GCD(nᵢ, nⱼ))__** for all **_i_** & **_j_** ; **_i≠j_**. The solution is unique modulo **_lcm(n₁, n₂, ..., nₜ)_**.
+
+The following code will work only if **_lcm(n₁, n₂, ..., nₜ)_ ≤ 10¹⁸**.
+
 
 ```C++
 ll CRT_t( std::vector<ll> a, std::vector<ll> n ) // CRT for t equations
@@ -282,6 +290,7 @@ ll CRT_t( std::vector<ll> a, std::vector<ll> n ) // CRT for t equations
 }
 ```
 
+**_Time Complexity:_** _O( t.log(lcm(n₁, n₂, ..., nₜ)) )_
 
 #### Shortest Path: 
 <a href = "https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"> Floyd Warshall </a>
