@@ -176,9 +176,50 @@ Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
 
 #### Chinese Remainder Theorem
 
-<a href = "https://cp-algorithms.com/algebra/chinese-remainder-theorem.html"> Link </a>
+<a href = "https://cp-algorithms.com/algebra/chinese-remainder-theorem.html"> Link-01 </a>
 
 <a href = "https://codeforces.com/blog/entry/61290"> Link-02 </a>
+
+##### An Implementation Based on Link-02
+
+```C++
+#define ll long long
+
+ll Egcd(ll a, ll b, ll& x, ll& y) {
+    if (b == 0) {
+        x = 1;
+        y = 0;
+        return a;
+    }
+    ll x1, y1;
+    ll d = Egcd(b, a % b, x1, y1);
+    x = y1;
+    y = x1 - y1 * (a / b);
+    return d;
+}
+
+ll CRT_2( ll a1, ll n1, ll a2, ll n2 ) // CRT for 2 equations
+{
+	ll d = __gcd(n1, n2);
+	a1 = a1 % n1;
+	a2 = a2 % n2;
+	if( ( ((a1-a2) % d) + d ) % d != 0 ) return -1; // no solution : empty vector
+
+	ll x, x1, y1;
+	ll lcm = n1 * n2 / d;
+	if( n1 > n2 ) {
+		ll tmp1 = n1; n1 = n2, n2 = tmp1;
+		ll tmp2 = a1; a1 = a2, a2 = tmp2;
+	}
+	Egcd(n1, n2, x1, y1);
+
+	ll a = x1 * (a2 - a1) / d;
+	ll b = n2 / d;
+	ll c = n1;
+
+	return x = (((a1 + (a%b) * c) % lcm) + lcm) % lcm; // this is the lowest solution
+}
+```
 
 #### Shortest Path: 
 <a href = "https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"> Floyd Warshall </a>
