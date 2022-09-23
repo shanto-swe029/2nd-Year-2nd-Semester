@@ -182,7 +182,14 @@ Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
 
 ##### An Implementation Based on Link-02
 
-_For 2 Equations:_
+We would like to solve the following system of equations
+
+**_x ≅ a1 ( mod n1 )_** ......(i)
+
+**_x ≅ a2 ( mod n2 )_** ......(ii)
+
+where **_n1, n2 ≤ 1,000,000,000_** or **_1e9_**
+
 <br>
 
 ```C++
