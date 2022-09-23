@@ -227,9 +227,10 @@ ll CRT_2( ll a1, ll n1, ll a2, ll n2 ) // CRT for 2 equations
 	ll b = n2 / d;
 	ll c = n1;
 
-	return x = (((a1 + (a%b) * c) % lcm) + lcm) % lcm; // this is the lowest solution
+	return x = (((a1 + (a%b) * c) % lcm) + lcm) % lcm; // this is the lowest solution; 
 }
 ```
+
 
 #### Shortest Path: 
 <a href = "https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"> Floyd Warshall </a>
