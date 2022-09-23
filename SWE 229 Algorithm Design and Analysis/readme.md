@@ -176,9 +176,17 @@ Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
 
 #### Chinese Remainder Theorem
 
-<a href = "https://cp-algorithms.com/algebra/chinese-remainder-theorem.html"> Link-01 </a>
 
-<a href = "https://codeforces.com/blog/entry/61290"> Link-02 </a>
+
+<a href = "https://cp-algorithms.com/algebra/chinese-remainder-theorem.html"> Link-01 : CP Algorithms </a>
+
+<a href = "https://codeforces.com/blog/entry/61290"> Link-02 : Codeforces </a>
+
+<a href = "https://forthright48.com/chinese-remainder-theorem-part-1-coprime-moduli/"> Link-03 : Chinese Remainder Theorem Part 1 – Coprime Moduli </a>
+
+< a href = "https://forthright48.com/chinese-remainder-theorem-part-2-non-coprime-moduli/"> Link-04: Chinese Remainder Theorem Part 2 – Non Coprime Moduli </a>
+
+
 
 ##### An Implementation Based on Link-02
 
