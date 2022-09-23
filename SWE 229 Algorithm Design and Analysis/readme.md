@@ -273,15 +273,11 @@ ll CRT_2( ll a1, ll n1, ll a2, ll n2 ); // must be implemented before the follow
 
 ll CRT_t( std::vector<ll> a, std::vector<ll> n ) // CRT for t equations
 {
-	ll sz = a.size();
-
-	std::cout << sz << endl;
-
 	ll a1 = CRT_2(a[0], n[0], a[1], n[1]);
 	if( a1 == -1 ) return -1; // no solution
 
 	ll n1 = n[0] * n[1] / __gcd(n[0], n[1]);
-	ll a2, n2;
+	ll a2, n2, sz = a.size();
 
 	for( int i = 2; i < sz; i++ ) {
 		a2 = a[i], n2 = n[i];
