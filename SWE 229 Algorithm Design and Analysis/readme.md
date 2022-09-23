@@ -184,7 +184,7 @@ Faster algorithm to check if a number is a prime : **Miller Rabin Algorithm**
 
 <a href = "https://forthright48.com/chinese-remainder-theorem-part-1-coprime-moduli/"> Link-03 : Chinese Remainder Theorem Part 1 – Coprime Moduli </a>
 
-< a href = "https://forthright48.com/chinese-remainder-theorem-part-2-non-coprime-moduli/"> Link-04: Chinese Remainder Theorem Part 2 – Non Coprime Moduli </a>
+<a href = "https://forthright48.com/chinese-remainder-theorem-part-2-non-coprime-moduli/"> Link-04: Chinese Remainder Theorem Part 2 – Non Coprime Moduli </a>
 
 
 
