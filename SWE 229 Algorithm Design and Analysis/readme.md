@@ -269,7 +269,7 @@ The following code will work only if **_lcm(n₁, n₂, ..., nₜ)_ ≤ 10¹⁸*
 ```C++
 #define ll long long
 
-ll CRT_2( ll a1, ll n1, ll a2, ll n2 ); // must be implemented before the following function "CRT_t(std::vector<ll>, std::vector<ll>)"
+ll CRT_2( ll a1, ll n1, ll a2, ll n2 ); // must be implemented before the following function "CRT_t(vector<ll>, vector<ll>)"
 
 ll CRT_t( std::vector<ll> a, std::vector<ll> n ) // CRT for t equations
 {
