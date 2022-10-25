@@ -293,7 +293,20 @@ ll CRT_t( std::vector<ll> a, std::vector<ll> n ) // CRT for t equations
 **_Time Complexity:_** _O( t.log(lcm(n₁, n₂, ..., nₜ)) )_
 
 #### Shortest Path: 
-<a href = "https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"> Floyd Warshall </a>
+
+##### Floyd Warshall Algorithm - Finding All Pair Shortest Path
+
+<a href = "https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html"> CP Algorithm's Blog of Floyd Warshall Algorithm </a>
+
+<a href = "https://youtu.be/oNI0rf2P9gE"> Video Tutorial of Abdul Bari </a>
+
+##### Bellman Ford Algorithm - Single Source Shortest Path With Negative Edges
+
+<a href = "https://cp-algorithms.com/graph/bellman_ford.html"> CP Algorithm's Blog of Bellman Ford Algorithm </a>
+
+<a href = "https://youtu.be/FtN3BYH2Zes"> Video Tutorial of Abdul Bari </a>
+
+
 
 
 
