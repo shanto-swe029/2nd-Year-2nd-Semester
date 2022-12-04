@@ -308,7 +308,56 @@ ll CRT_t( std::vector<ll> a, std::vector<ll> n ) // CRT for t equations
 
 
 
+### DP
 
+#### Longest Common Subsequence
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+const int m_ = 101;
+const int n_ = 101;
+int dp[m_][n_];
+
+
+int lcs( string x, string y, int m, int n ) {
+    if( m * n == 0 ) return 0;
+
+    if( dp[m][n] != -1 ) return dp[m][n];
+
+    if( x[m-1] != y[n-1] ) {
+        if( m > 0 && n > 0){
+            dp[m-1][n] = lcs(x, y, m-1, n);
+            dp[m][n-1] = lcs(x, y, m, n-1);
+            return dp[m][n] = max( dp[m-1][n], dp[m][n-1] );
+        }
+        return 0;
+    }
+
+    if( m > 0 && n > 0 ) {
+        dp[m-1][n-1] = lcs(x, y, m-1, n-1);
+        return dp[m][n] = 1 + dp[m-1][n-1];
+    }
+    return 1;
+}
+
+int main()
+{
+    string s1 = "axyt";
+    string s2 = "ayxb";
+
+    std::cin >> s1 >> s2;
+
+    for( int i = 0; i < m_; i++ ) {
+        for( int j = 0; j < n_; j++ ) {
+            dp[i][j] = -1;
+        }
+    }
+
+    cout << lcs(s1, s2, 4, 4) << endl;
+}
+
+```
 
 
 
