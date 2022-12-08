@@ -341,6 +341,18 @@ int lcs( string x, string y, int m, int n ) {
     return 1;
 }
 
+int lcs_easy( string A, string B, int m, int n ) {
+	int LCS[m+1][n+1] = {0};
+	
+	for( int i = 1; i <= m; i++ ) {
+		for( int j = 1; j <= n; j++ ) {
+			if( A[i-1] == B[j-1] ) LCS[i][i] = 1 + LCS[i-1][j-1];
+			else LCS[i][j] = max( LCS[i-1][j], LCS[i][j-1] );
+		}
+	}
+	return LCS[m][n]
+}
+
 int main()
 {
     string s1 = "axyt";
