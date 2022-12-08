@@ -342,15 +342,21 @@ int lcs( string x, string y, int m, int n ) {
 }
 
 int lcs_easy( string A, string B, int m, int n ) {
-	int LCS[m+1][n+1] = {0};
+	int LCS[m+1][n+1];
+	
+	for(int i = 0; i <= m; i++ ) {
+	    for( int j = 0; j <= m; j++ ) {
+	        LCS[i][j] = 0;
+	    }
+	}
 	
 	for( int i = 1; i <= m; i++ ) {
 		for( int j = 1; j <= n; j++ ) {
-			if( A[i-1] == B[j-1] ) LCS[i][i] = 1 + LCS[i-1][j-1];
+			if( A[i-1] == B[j-1] ) LCS[i][j] = 1 + LCS[i-1][j-1];
 			else LCS[i][j] = max( LCS[i-1][j], LCS[i][j-1] );
 		}
 	}
-	return LCS[m][n]
+	return LCS[m][n];
 }
 
 int main()
