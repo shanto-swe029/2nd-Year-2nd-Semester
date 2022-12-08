@@ -366,7 +366,8 @@ int main()
         }
     }
 
-    cout << lcs(s1, s2, 4, 4) << endl;
+    cout << lcs( s1, s2, s1.size(), s2.size() ) << endl;
+    cout << lcs_easy( s1, s2, s1.size(), s2.size() ) << endl;
 }
 
 ```
