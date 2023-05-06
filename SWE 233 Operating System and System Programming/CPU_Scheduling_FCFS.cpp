@@ -22,15 +22,6 @@ int cpu_idle_time;
 int total_turnaround_time;
 int total_waiting_time;
 
-void loadProcesses()
-{
-	std::cin >> total_process;
-	for( int i = 0; i < total_process; i++ ) {
-		std::cin >> p[i].arrival_time >> p[i].burst_time;
-		p[i].id = i+1;
-	}
-}
-
 bool comparatorAT(Process a,Process b){ return a.arrival_time < b.arrival_time; }
 
 bool comparatorID(Process a,Process b){ return a.id < b.id; }
@@ -50,6 +41,15 @@ bool firstComeFirstServe()
 		total_turnaround_time += p[i].turnaround_time;
 		total_waiting_time += p[i].waiting_time;
 		cpu_idle_time += (i==0) ? 0 : p[i].start_time - p[i-1].completion_time;
+	}
+}
+
+void loadProcesses()
+{
+	std::cin >> total_process;
+	for( int i = 0; i < total_process; i++ ) {
+		std::cin >> p[i].arrival_time >> p[i].burst_time;
+		p[i].id = i+1;
 	}
 }
 
